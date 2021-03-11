@@ -1,0 +1,23 @@
+rahman@rahman:~$ mkdir MyDockerImages
+rahman@rahman:~$ cd MyDockerImages
+rahman@rahman:~/MyDockerImages$ touch Dockerfile
+
+nano Dockerfile or
+//(clt+alt+T)
+  
+//create a dockerfile
+
+FROM ubuntu
+
+MAINTAINER rahman
+
+RUN apt-get update
+
+CMD ["echo", "welcome to kloudone"]
+
+
+//save and exit
+
+
+
+
